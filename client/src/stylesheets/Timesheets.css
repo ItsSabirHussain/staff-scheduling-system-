@@ -1,0 +1,61 @@
+div.timesheets-container {
+  margin: 2em;
+}
+
+div.timesheets > .header > .header-mainbar > div:last-child {
+  padding-right: 1em;
+}
+
+div.column-headings-container {
+  height: 50px;
+  border-bottom: 3px groove #6851ff;
+  display: flex;
+}
+
+div.column-headings-container > div.empty-column {
+  width: 15%;
+  border-right: 3px groove #6851ff;
+}
+
+div.column-headings-container > div.headings-column {
+  width: 85%;
+  display: flex;
+  align-items: center;
+}
+
+div.column-headings-container > div.headings-column > div {
+  width: 14.28%;
+  color: #02026e;
+  font-weight: bold;
+  text-align: center;
+  border-right: 3px groove #6851ff;
+}
+
+div.column-headings-container > div.headings-column > div:last-child {
+  border: none;
+}
+
+div.main-timesheet-container {
+  display: flex;
+}
+
+div.main-timesheet-container > div.names-container {
+  width: 15%;
+  border-right: 3px groove #6851ff;
+}
+
+div.main-timesheet-container > div.names-container > div {
+  color: #02026e;
+  font-weight: bold;
+  border-bottom: 3px groove #6851ff;
+  text-align: center;
+  padding: 1em;
+}
+
+div.main-timesheet-container > div.timesheet-container {
+  width: 85%;
+}
+
+div.main-timesheet-container > div.individual-view-container {
+  width: 85%;
+}

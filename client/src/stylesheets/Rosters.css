@@ -1,0 +1,19 @@
+div.rosters-container {
+  margin: 2em;
+}
+
+div.rosters-main {
+  display: flex;
+}
+
+div.rosters-flags {
+  width: 15%;
+  border-right: 3px groove #6851ff;
+  display: flex;
+  justify-content: center;
+}
+
+div.rosters-date {
+  width: 85%;
+  padding: 1em;
+}

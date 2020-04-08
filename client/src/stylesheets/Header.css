@@ -1,0 +1,32 @@
+div.header {
+  height: 80px;
+  border-bottom: 3px groove #6851ff;
+  display: flex;
+}
+
+div.header-sidebar {
+  width: 15%;
+  border-right: 3px groove #6851ff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.header-mainbar {
+  width: 85%;
+  padding: 0 5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.header-mainbar button {
+  cursor: pointer;
+}
+
+div.header-mainbar p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}

@@ -1,0 +1,33 @@
+div.shift-row {
+  display: flex;
+}
+
+div.shifts {
+  width: 100%;
+  display: flex;
+}
+
+div.shifts > div {
+  width: 12%;
+  border-top: 2px solid #02026e;
+  border-right: 2px solid #02026e;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.shifts > div:first-child {
+  width: 16%;
+  border-top: none;
+  display: block;
+}
+
+div.shifts > div:first-child > h3 {
+  padding-left: 1em;
+}
+
+div.shift-cell {
+  display: flex;
+  justify-content: center;
+}
+
+
